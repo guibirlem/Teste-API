@@ -1,1 +1,2 @@
-Teste de api, para testes próprios
+Foi feito um arquivo index.html contendo a parte em html da página que acessa uma API de tempo e feito um layout bonito utilizando css no arquivos styles.css 
+Na parte de javascript no arquivo main.js foi feito um codigo para pegar e acessar a api usando fetch entre outros comandos em javascript para a funcionalidade do programa
