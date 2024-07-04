@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicativo de Clima</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <h1>Máquina do tempo</h1>
-        <div class="search-box">
-            <input type="text" id="city" placeholder="Digite o nome da cidade">
-            <button onclick="getWeather()">Pesquise a cidade</button>
+        <div class="box">
+            <input type="text" id="cidade" placeholder="Digite o nome da cidade">
+            <button onclick="obterClima()">Pesquise a cidade</button>
         </div>
-        <div id="weather-result"></div>
+        <div id="resultado-clima">
+            <p><strong>Cidade:</strong> <span id="nome-cidade"></span></p>
+            <p><strong>Temperatura:</strong> <span id="temperatura"></span> °C</p>
+            <p><strong>Clima:</strong> <span id="descricao-clima"></span></p>
+            <p><strong>Umidade:</strong> <span id="umidade"></span>%</p>
+        </div>
     </div>
+    <footer>
+        <div class="footer">
+            <p>Desenvolvido por Guilherme Birlem<a href="https://github.com/guibirlem"> <i class="fa-brands fa-github"></i> </a> <a href="https://www.linkedin.com/in/guilherme-birlem-machado-2112a6267/"><i class="fa-brands fa-linkedin-in"></i></a></p>
+        </div>
+    </footer>
+    
     <script src="main.js"></script>
+
 </body>
 </html>
