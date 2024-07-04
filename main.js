@@ -1,6 +1,6 @@
 async function obterClima() {
     const cidade = document.getElementById('cidade').value;
-    const apiKey = '811c6fd4df54aaf328eba39b0cfd630f'; // Substitua por sua chave de API
+    const apiKey = '811c6fd4df54aaf328eba39b0cfd630f'; //utilizar chave da api
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric&lang=pt_br`;
 //lang pt br para as informaçoes virem em portugues
 
